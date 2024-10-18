@@ -61,7 +61,7 @@ This project designs the network infrastructure for Radeon Company Ltd.’s new 
 5. **SSH Configuration** for secure remote login on all routers.
 6. **Port Security** using the sticky method to secure switch ports.
 7. **Wireless Networks** for all departments, accommodating wired and wireless users.
-8. **HTTP and Email Servers** configured in the server room for company operations.
+8. **DNS, HTTP and Email Servers** configured in the server room for company operations.
 
 ## Tools and Technologies
 - **Network Design Tools**: MS Visio for network topology modeling.

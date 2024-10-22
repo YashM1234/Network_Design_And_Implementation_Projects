@@ -75,3 +75,21 @@ This project designs the network infrastructure for Radeon Company Ltd.’s new 
 
 ## 4. VoIP-IP Telephony System Network Design and Implementation
 
+## Project Overview
+This project involves designing and implementing a VoIP network infrastructure for **Turtle Consultancy Limited**, aimed at interconnecting four departments (Finance, HR, Sales, and ICT) across the organization. The network includes voice and data VLANs, DHCP for dynamic IP assignment, OSPF for routing, and VoIP services for communication between departments. The design ensures scalability, availability, and secure communication for the growing company.
+
+## Key Features
+- **Four Routers** with VoIP enabled, using serial connections for inter-router communication.
+- **VLANs** for both voice (VLAN 100) and data, with inter-VLAN routing (router-on-a-stick).
+- **DHCP**: Dynamic IP assignment for both voice and data subnets.
+- **OSPF** routing protocol for network route advertisement.
+- **VoIP Services** with dial-peers for department-specific communication (e.g., Finance: 1xx, HR: 2xx).
+- **SSH** enabled on all routers for secure remote access.
+
+## Tools and Technologies
+- **Cisco Packet Tracer**: Used for network design, configuration, and simulation.
+- **VLAN, DHCP, OSPF, VoIP**: Network segmentation, dynamic IP assignment, routing, and telephony services.
+- **SSH**: Secures remote router login.
+
+## Result
+![VoIP-IP Telephony System Network Design and Implementation]()

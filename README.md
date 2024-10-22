@@ -54,14 +54,14 @@ This project designs the network infrastructure for Albion University, a large u
 This project designs the network infrastructure for Radeon Company Ltd.’s new branch in Nairobi, Kenya. The network supports multiple departments across four floors, with secure, scalable connectivity for both wired and wireless users. VLANs are configured for network segmentation, OSPF for routing, and DHCP for dynamic IP address allocation from dedicated servers located in the server room.
 
 ## Key Features
-1. **Hierarchical Network Design** with core, distribution, and access layers, providing redundancy.
-2. **VLAN Configuration** for each department, ensuring network segmentation.
-3. **OSPF Routing** to connect different floors and advertise routes between routers.
-4. **DHCP Servers** in the server room, dynamically assigning IPs to devices across all floors.
-5. **SSH Configuration** for secure remote login on all routers.
-6. **Port Security** using the sticky method to secure switch ports.
-7. **Wireless Networks** for all departments, accommodating wired and wireless users.
-8. **DNS, HTTP and Email Servers** configured in the server room for company operations.
+- **Hierarchical Network Design** with core, distribution, and access layers, providing redundancy.
+- **VLAN Configuration** for each department, ensuring network segmentation.
+- **OSPF Routing** to connect different floors and advertise routes between routers.
+- **DHCP Servers** in the server room, dynamically assigning IPs to devices across all floors.
+- **SSH Configuration** for secure remote login on all routers.
+- **Port Security** using the sticky method to secure switch ports.
+- **Wireless Networks** for all departments, accommodating wired and wireless users.
+- **DNS, HTTP and Email Servers** configured in the server room for company operations.
 
 ## Tools and Technologies
 - **Network Design Tools**: MS Visio for network topology modeling.
@@ -85,6 +85,7 @@ This project involves designing and implementing a VoIP network infrastructure f
 - **OSPF** routing protocol for network route advertisement.
 - **VoIP Services** with dial-peers for department-specific communication (e.g., Finance: 1xx, HR: 2xx).
 - **SSH** enabled on all routers for secure remote access.
+- **DHCP, DNS, HTTP and Email Servers** configured in the server room for company operations.
 
 ## Tools and Technologies
 - **Cisco Packet Tracer**: Used for network design, configuration, and simulation.
@@ -92,4 +93,8 @@ This project involves designing and implementing a VoIP network infrastructure f
 - **SSH**: Secures remote router login.
 
 ## Result
-![VoIP-IP Telephony System Network Design and Implementation]()
+![VoIP-IP Telephony System Network Design and Implementation](https://github.com/YashM1234/Network_Design_And_Implementation_Projects/blob/main/VoIP-IP%20Telephony%20System%20Network%20Design%20and%20Implementation/VoIP-IP%20Telephony%20System%20Network%20Design%20and%20Implementation%20S0.png)
+
+## 5. Telecommunication Company Network Design and Implementation
+
+

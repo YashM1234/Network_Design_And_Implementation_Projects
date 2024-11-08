@@ -97,4 +97,56 @@ This project involves designing and implementing a VoIP network infrastructure f
 
 ## 5. Telecommunication Company Network Design and Implementation
 
+## Project Overview
 
+**Cairo Telco** occupies the fourth and fifth floors of Pharaoh’s Mega Plaza in Cairo, hosting various departments including:
+- **Fourth Floor**: HR & Finance, Product Brand & Marketing, Admin & Corporate.
+- **Fifth Floor**: IT Network & Support, Software Engineering, Cloud Engineering.
+
+The network is designed to meet strict requirements for high performance, redundancy, scalability, availability, and security, ensuring robust protection for data and communication. The company’s cloud operations on Microsoft Azure are also integrated into the network design, supporting core business functions.
+
+## Key Features
+
+- **Hierarchical Network Design**: Redundant layers to ensure high availability and scalability.
+- **Cisco ASA Firewall**: Security zones and filtering policies to protect network traffic.
+- **VLAN Segmentation**:
+  - **LAN VLAN**: 192.168.10.0/24 (VLAN 50)
+  - **WLAN VLAN**: 10.20.0.0/16 (VLAN 60)
+  - **VoIP VLAN**: 172.16.10.0/24 (VLAN 101)
+  - **DMZ Network**: 10.10.10.0/28
+  - **Public Address**: 197.200.100.0
+
+- **Cisco Packet Tracer**: Used for designing and implementing the network solution.
+- **Dynamic IP Addressing**: Windows Server 2022 configured as a DHCP server.
+- **Wireless Management**: Cisco WLC with six Lightweight Access Points for employee and guest Wi-Fi.
+- **VoIP Services**: Cisco Voice Gateway for inter-departmental telephony communication.
+- **DHCP, DNS, HTTP, Email and File Storage Server** configured in the server room for company operations.
+
+## Technologies Implemented
+
+1. **Network Topology**: Built and simulated in Cisco Packet Tracer.
+2. **Subnetting**: Assigned IP ranges for each network segment.
+3. **Device Configuration**:
+   - Basic settings (hostnames, password encryption, domain lookup disabled).
+   - VLAN configuration for data and voice.
+   - EtherChannel configuration with LACP for link aggregation.
+   - STP PortFast and BPDU Guard enabled.
+4. **Inter-VLAN Routing**: Configured on the multilayer switch for departmental communication.
+5. **Dynamic IP Allocation**: DHCP server setup on the AD server for LAN/WLAN devices, DHCP server on router for VoIP.
+6. **Spanning Tree Protocol (STP)**: PortFast and BPDU Guard for faster transitions.
+7. **Routing Protocol**: OSPF for dynamic route advertisement.
+8. **SSH Access**: Restricted via ACL to allow only the Senior Network Security Engineer remote access.
+9. **Cisco ASA Firewall**:
+   - Configured zones and inspection policies.
+   - Network Address Translation (NAT) and static routing.
+10. **Testing**: Communication testing for all configured devices and network segments.
+
+## Tools and Technologies
+
+- **Cisco Packet Tracer**: Network simulation.
+- **Cisco ASA Firewall, Catalyst Switches, Cisco Voice Gateway, Cisco WLC**.
+- **Microsoft Azure**: Integrated cloud services.
+- **VLAN, DHCP, OSPF, VoIP, SSH, ACLs**: Core technologies for network management and security.
+
+## Result
+![Telecommunication Company Network Design and Implementation](https://github.com/YashM1234/Network_Design_And_Implementation_Projects/blob/main/Telecommunication%20Company%20Network%20Design%20and%20Implementation/Telecommunication%20Company%20Network%20Design%20and%20Implementation%20S0.png)

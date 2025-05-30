@@ -1,8 +1,5 @@
 # Network_Design_And_Implementation_Projects
 
-## NOTE: 
-**spanning-tree portfast** and **spanning-tree bpduguard enable** are essential Layer 2 security features used on access ports (i.e., ports connected to end devices like PCs, printers, IP phones), not trunk or uplink ports. If you see any mistake in documentation please correct it.
-
 ## 1. Hotel Network Design and Implementation
 
 ## Project Overview
